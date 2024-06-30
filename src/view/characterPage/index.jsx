@@ -1,8 +1,7 @@
-// src/pages/HomePage.js
 import { useEffect, useState } from 'react';
-import { fetchRandomCharacters } from '../models/fetchPersonagens';
-import Card from '../components/Card';
-import Header from '../components/Header';
+import { fetchRandomCharacters } from '../../models/Character.Model/fetchRandomCharacter';
+import Card from '../../components/card';
+import Header from '../../components/header';
 
 const CharacterPage = () => {
     const [characters, setCharacters] = useState([]);
@@ -19,7 +18,7 @@ const CharacterPage = () => {
         <div className="flex flex-col items-center min-h-screen bg-[url('./src/assets/rick-and-morty.gif')] bg-cover">
             <Header links={[
                 { id: 1, to: "/", text: "Home" },
-                { id: 2, to: "/history", text: "Histórico" }
+         
             ]} />
             <div className="flex flex-wrap justify-center mt-10">
                 {characters.map(character => (

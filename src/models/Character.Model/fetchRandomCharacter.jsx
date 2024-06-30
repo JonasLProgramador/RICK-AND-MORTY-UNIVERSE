@@ -1,4 +1,4 @@
-// src/models/fetchPersonagens.js
+
 import axios from 'axios';
 
 export const fetchRandomCharacters = async (count = 5) => {

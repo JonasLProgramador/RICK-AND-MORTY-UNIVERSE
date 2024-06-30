@@ -5,7 +5,7 @@ const Card = ({ character }) => {
             <h2 className="text-xl font-bold text-gray-700 mb-2">{character.name}</h2>
             <p className="text-gray-600">Status: {character.status}</p>
             <p className="text-gray-600">Espécie: {character.species}</p>
-            <a href={`/character/${character.id}`} className="text-blue-500 hover:underline mt-4">Mais detalhes</a>
+        
         </div>
     );
 };
