@@ -7,7 +7,7 @@ const AppRoutes = () =>{
         
             <Routes>
                 <Route path="/"element={<MainPage/>}/>, 
-                <Route path="/character" element={<CharacterPage/>}/>
+                <Route path="/characters" element={<CharacterPage/>}/>
             </Routes>
        
     )
