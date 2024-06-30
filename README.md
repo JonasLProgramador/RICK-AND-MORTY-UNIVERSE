@@ -5,7 +5,7 @@
 </head>
 <body>
     <h1>🌌 Mundo Animalesco de Rick and Morty</h1>
-    <p>Bem-vindo ao projeto <strong>Mundo Animalesco de Rick and Morty</strong>, uma aplicação React que permite explorar personagens do universo de Rick and Morty. O projeto oferece funcionalidades para visualizar personagens aleatórios, pesquisar personagens específicos e acessar um histórico de personagens visualizados recentemente.</p>
+    <p>Bem-vindo ao projeto <strong>Mundo Animalesco de Rick and Morty</strong>, uma aplicação React que permite explorar personagens do universo de Rick and Morty. O projeto oferece funcionalidades para visualizar personagens aleatórios, e terá futuras features de pesquisar personagens específicos e acessar um histórico de personagens visualizados recentemente.</p>
     <h2>🧭 Visão Geral</h2>
     <p>Esta aplicação possui:</p>
     <ul>
